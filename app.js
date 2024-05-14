@@ -27,6 +27,24 @@ else(maxCap > (area1) && (area2));{
 // Just checking 
 console.log(area1)
 console.log(maxCap < area3);
-console.log(maxCap>area1);
-console.log(maxCap<area2);
+console.log(maxCap > area1);
+console.log(maxCap < area2);
 
+//Checking is palnts will be monitored or not
+if (area1 >= .5 * area && area1 <= .8 * area){
+    console.log ("Growing at an acceptional rate")
+}
+
+else {console.log ("Not growing at an acceptional rate")}
+
+console.log(.5*area)
+console.log(.8*area)
+console.log(16 >= .5*area && 16 <= .8*area)
+console.log(32 >= .5*area && 32 <= .8*area)
+console.log(64 >= .5*area && 64 <= .8*area)
+
+//Seeing if there is room to plant more palnts
+if (minSpace< .5*area){
+    console.log("There is more room to plant")
+}
+else { console.log ("There is no room to plant")}
