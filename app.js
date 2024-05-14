@@ -48,3 +48,11 @@ if (minSpace< .5*area){
     console.log("There is more room to plant")
 }
 else { console.log ("There is no room to plant")}
+
+let plants = 100
+let weekTen = 51200
+let area10 = weekTen * minSpace
+let sqrRoot = Math.sqrt(area10);
+let radiusWeek10= sqrRoot/PI;
+console.log (radiusWeek10)
+// take area10 find squareroot and divide by pi?
